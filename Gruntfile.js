@@ -178,7 +178,7 @@ module.exports = function (grunt) {
           boss: true,
           eqnull: true,
           //NOTE: we need to use eval sometimes so ignore it
-          evil: true,
+          eval: true,
           //NOTE: we need to check for strings such as "javascript:" so don't throw errors regarding those
           scripturl: true,
           //NOTE: we ignore tabs vs spaces because enforcing that causes lots of errors depending on the text editor being used
