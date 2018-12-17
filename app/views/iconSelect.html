@@ -1,0 +1,7 @@
+<div class="unstyled" ng-controller="SRH.iconSelector">
+    <div ng-repeat="preval in model.prevalues">
+        <label class="checkbox">
+            <input type="radio" ng-model="model.value" value="{{preval.value}}" /> {{preval.name}}
+        </label>
+    </div>
+</div>

@@ -1,0 +1,135 @@
+h3 {
+	font-size: 1.2rem;
+	color: black;
+}
+
+.plain-grey-bg {
+	background-color: lightgray;
+}
+
+.panel-heading {
+	margin-top: 0;
+	padding-top: 5px;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.panel-body {
+	padding: 20px 50px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.panel-umbraco-purple,
+.panel-success,
+.panel-warning,
+.panel-danger {
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	border: 2px solid #675e7a;
+	border-radius: 10px;
+
+	.panel-body {
+			color: black;
+			background-color: transparent;
+	}
+
+	.panel-heading {
+			color: white;
+	}
+}
+
+
+
+.panel-umbraco-purple{
+	.panel-heading {
+			background-color: #675e7a;
+	}
+} 
+
+.panel-success {
+	border-color: darkgreen;
+}
+
+.panel-success{
+	.panel-heading {
+			background-color: darkgreen;
+	}
+} 
+
+.panel-warning {
+	border-color: darkorange;
+
+	.panel-heading {
+			background-color: darkorange;
+			border-color: darkorange;
+	}
+}
+
+.panel-danger {
+	border-color: darkred;
+
+	.panel-heading {
+			background-color:darkred;
+	}
+}
+
+.panel-heading {
+	span i {
+	   float:right; 
+	   padding-right: 30px;
+	   text-shadow: none; 
+	   font-size: 3rem;
+   }
+} 
+
+.panel-default-gradient,
+.panel-success-gradient,
+.panel-warning-gradient,
+.panel-danger-gradient {
+	border-radius: 0;
+	border:none;
+
+	.panel-heading {
+		color: white;
+		text-shadow: 2px 2px 4px #000000;
+	}
+}
+
+.panel-default-gradient{
+	.panel-heading span i {
+		color: #675e7a;
+	}
+}
+.panel-success-gradient{
+	.panel-heading span i {
+		color: darkgreen;
+	}
+}
+.panel-warning-gradient{
+	.panel-heading span i {
+		color: darkorange;
+	}
+}
+.panel-danger-gradient {
+	.panel-heading span i {
+		color: darkred;
+	}
+}
+
+.panel-default-gradient .panel-heading {
+	background: linear-gradient(to left, rgba(103,94,122,0.1), rgba(103,94,122,1));
+}
+.panel-success-gradient .panel-heading {
+	background: linear-gradient(to left, rgba(0,100,0,0.1), rgba(0,100,0,1));
+}
+.panel-warning-gradient .panel-heading {
+	background: linear-gradient(to left, rgba(255,140,0,0.1), rgba(255,140,0,1));
+}
+.panel-danger-gradient .panel-heading {
+	background: linear-gradient(to left, rgba(255,0,0,0.1), rgba(255,0,0,1));
+}

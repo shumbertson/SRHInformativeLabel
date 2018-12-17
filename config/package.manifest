@@ -1,0 +1,54 @@
+{
+  propertyEditors: [
+    {
+      "name": "Content Editor Information",
+      "alias": "SRH.InformativeLabel",
+      "icon": "icon-info",
+      "editor": {
+        "view": "~/App_Plugins/SRHInformativeLabel/views/informativeLabel.html",
+        "hideLabel": true,
+        "valueType": "JSON"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Label Style",
+            "description": "Select the style of the label",
+            "key": "styleOptions",
+            "view": "~/App_Plugins/SRHInformativeLabel/views/styleSelect.html"
+          },
+          {
+            "label": "Icon",
+            "description": "Select an icon to appear in the header",
+            "key": "selectedIcon",
+            "view": "~/App_Plugins/SRHInformativeLabel/views/iconSelect.html"
+          },
+          {
+            "label": "Title",
+            "description": "Title of the label",
+            "key": "title",
+            "view": "textstring"
+          },
+          {
+            "label": "Center title",
+            "description": "If checked, will center title text.  If not checked, title text will be left aligned.",
+            "key": "centerTitle",
+            "view": "boolean"
+          },
+          {
+            "label": "Message",
+            "description": "Main body of label",
+            "key": "body",
+            "view": "/Umbraco/Views/propertyeditors/rte/rte.html"
+          }
+        ]
+      }
+    }
+  ],
+  "javascript" : [
+    "~/App_Plugins/SRHInformativeLabel/js/srh.information.js"
+  ],
+  "css" : [
+    "~/App_Plugins/SRHInformativeLabel/css/srh.information.css"
+  ]
+}
