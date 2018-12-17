@@ -6,7 +6,7 @@
   "author": {
     "name": "Steven Humbertson",
     "email": "shumbert@comcast.net",
-    "url": ""
+    "url": "https://github.com/shumbertson"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
