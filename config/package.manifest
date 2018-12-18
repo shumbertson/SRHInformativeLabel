@@ -5,7 +5,7 @@
       "alias": "SRH.InformativeLabel",
       "icon": "icon-info",
       "editor": {
-        "view": "~/App_Plugins/SRHInformativeLabel/views/informativeLabel.html",
+        "view": "~/App_Plugins/SRH.InformativeLabel/views/informativeLabel.html",
         "hideLabel": true,
         "valueType": "JSON"
       },
@@ -15,13 +15,13 @@
             "label": "Label Style",
             "description": "Select the style of the label",
             "key": "styleOptions",
-            "view": "~/App_Plugins/SRHInformativeLabel/views/styleSelect.html"
+            "view": "~/App_Plugins/SRH.InformativeLabel/views/styleSelect.html"
           },
           {
             "label": "Icon",
             "description": "Select an icon to appear in the header",
             "key": "selectedIcon",
-            "view": "~/App_Plugins/SRHInformativeLabel/views/iconSelect.html"
+            "view": "~/App_Plugins/SRH.InformativeLabel/views/iconSelect.html"
           },
           {
             "label": "Title",
@@ -46,9 +46,9 @@
     }
   ],
   "javascript" : [
-    "~/App_Plugins/SRHInformativeLabel/js/srh.information.js"
+    "~/App_Plugins/SRH.InformativeLabel/js/srh.information.js"
   ],
   "css" : [
-    "~/App_Plugins/SRHInformativeLabel/css/srh.information.css"
+    "~/App_Plugins/SRH.InformativeLabel/css/srh.information.css"
   ]
 }
