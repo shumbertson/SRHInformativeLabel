@@ -5,9 +5,7 @@
     $scope.centerTitle = "";
     $scope.selectedIcon = $scope.model.config.selectedIcon;
 
-    //console.log($scope.model.config.centerTitle);
-
-    if ($scope.model.config.centerTitle) {
+    if ($scope.model.config.centerTitle == true) {
         $scope.centerTitle = "center-text";
     }
 });

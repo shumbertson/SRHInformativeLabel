@@ -9,9 +9,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/shumbertson/SRHInformativeLabel/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/shumbertson/SRHInformativeLabel</projectUrl>
-    <tags>umbraco</tags>
-    <!-- <dependencies> -->
-    <!--   <dependency id="SampleDependency" version="1.0" /> -->
-    <!-- </dependencies> -->
+    <tags>umbraco label</tags>
   </metadata>
 </package>
