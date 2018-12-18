@@ -1,6 +1,6 @@
 {
-  "name": "SRHInformativeLabel",
-  "version": "0.1.0",
+  "name": "SRH.InformativeLabel",
+  "version": "0.1.1",
   "description": "This is an Umbraco 7 property editor that can be configured to provide info to content authors. ",
   "license": "MIT",
   "author": {
