@@ -1,7 +1,7 @@
 {
   propertyEditors: [
     {
-      "name": "Content Editor Information",
+      "name": "Information",
       "alias": "SRH.InformativeLabel",
       "icon": "icon-info",
       "editor": {
@@ -12,32 +12,32 @@
       "prevalues": {
         "fields": [
           {
-            "label": "Label Style",
-            "description": "Select the style of the label",
+            "label": "Select a style:",
+            "description": "",
             "key": "styleOptions",
             "view": "~/App_Plugins/SRH.InformativeLabel/views/styleSelect.html"
           },
           {
-            "label": "Icon",
+            "label": "Header title",
+            "description": "",
+            "key": "title",
+            "view": "textstring"
+          },
+          {
+            "label": "Select a header icon:",
             "description": "Select an icon to appear in the header",
             "key": "selectedIcon",
             "view": "~/App_Plugins/SRH.InformativeLabel/views/iconSelect.html"
           },
           {
-            "label": "Title",
-            "description": "Title of the label",
-            "key": "title",
-            "view": "textstring"
-          },
-          {
-            "label": "Center title",
-            "description": "If checked, will center title text.  If not checked, title text will be left aligned.",
+            "label": "Center header title?",
+            "description": "If checked, will center title in the header.  If not checked, title text will be left aligned. Note: this does not affect the header icon location",
             "key": "centerTitle",
             "view": "boolean"
           },
           {
-            "label": "Message",
-            "description": "Main body of label",
+            "label": "Main body content",
+            "description": "",
             "key": "body",
             "view": "/Umbraco/Views/propertyeditors/rte/rte.html"
           }
