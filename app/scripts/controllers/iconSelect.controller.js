@@ -1,4 +1,4 @@
-angular.module("umbraco").controller("SRH.iconSelector", function ($scope) {
+angular.module("umbraco").controller("SRH.iconSelector", ["$scope", function ($scope) {
     $scope.model.prevalues = [
         { name: "None (Default)", value: ""},
         { name: "Info", value: "icon-info" },
@@ -8,4 +8,4 @@ angular.module("umbraco").controller("SRH.iconSelector", function ($scope) {
         { name: "Help", value: "icon-help" },
         { name: "Blueprint", value: "icon-blueprint"}
     ];
-});
+}]);
