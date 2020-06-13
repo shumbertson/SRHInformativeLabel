@@ -1,6 +1,8 @@
 # SRHInformativeLabel
 
-This is an Umbraco 7 property editor that can be configured to provide info to content authors. 
+This is an Umbraco property editor that can be configured to provide info to content authors. 
+Use v0 for Umbraco 7
+Use v1 for Umbraco 8
 
 ## Setup
 
