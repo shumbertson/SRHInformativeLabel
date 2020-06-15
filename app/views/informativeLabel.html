@@ -1,9 +1,8 @@
-﻿<div ng-controller="SRH.informativeLabelController as vm" class="panel {{styleOptions}}">
+<div ng-controller="SRH.informativeLabelController as vm" class="panel {{styleOptions}}">
     <h3 class="panel-heading {{centerTitle}}">{{title}}
         <span>
             <i class="{{selectedIcon}}"></i>
         </span>
     </h3>
-    <div class="panel-body" ng-bind-html-unsafe='body'></div>
+    <div class="panel-body" ng-bind-html='body'></div>
 </div>
-
