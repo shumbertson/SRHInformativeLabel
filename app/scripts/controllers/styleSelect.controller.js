@@ -1,4 +1,4 @@
-﻿angular.module("umbraco").controller("SRH.styleSelect", function ($scope) {
+angular.module("umbraco").controller("SRH.styleSelect", ["$scope", function ($scope) {
     $scope.model.prevalues = [
         { name: "Plain", value: "" },
         { name: "Plain with Gray Background", value: "plain-grey-bg"},
@@ -11,4 +11,4 @@
         { name: "Warning Gradient (Yellow gradient)", value: "panel-warning-gradient" },
         { name: "Danger Gradient (Red gradient)", value: "panel-danger-gradient" }
     ];
-});
+}]);
