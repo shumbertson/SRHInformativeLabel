@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id><%= name %></id>
-    <version><%= version %></version>
-    <authors><%= author %></authors>
-    <owners><%= author %></owners>
-    <description><%= description %></description>
+    <id>SRH.InformativeLabel</id>
+    <version>1.0.0</version>
+    <authors>Steve Humbertson</authors>
+    <owners></owners>
+    <description>This is an Umbraco property editor that can be configured to provide info to content authors. Use version 1 for Umbraco 8.  Use version 0 for Umbraco 7.</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/shumbertson/SRHInformativeLabel/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/shumbertson/SRHInformativeLabel</projectUrl>

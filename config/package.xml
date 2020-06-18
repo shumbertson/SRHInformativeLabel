@@ -2,19 +2,19 @@
 <umbPackage>
   <info>
     <package>
-      <name><%= name %></name>
-      <version><%= version %></version>
-      <license url="<%= licenseUrl %>"><%= license %></license>
+      <name>SRH.InformativeLabel</name>
+      <version>1.0.0</version>
+      <license url="https://github.com/shumbertson/SRHInformativeLabel/blob/master/LICENSE">MIT License</license>
       <url><%= url %></url>
       <requirements>
-        <major>0</major>
+        <major>1</major>
         <minor>0</minor>
         <patch>0</patch>
       </requirements>
     </package>
     <author>
-      <name><%= author %></name>
-      <website><%= authorUrl %></website>
+      <name>Steve Humbertson</name>
+      <website>https://github.com/shumbertson/SRHInformativeLabel</website>
     </author>
     <readme><![CDATA[<%= readmeContents %>]]></readme>
   </info>
